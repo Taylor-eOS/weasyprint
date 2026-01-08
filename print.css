@@ -1,0 +1,37 @@
+@page {
+    size: 6in 9in;
+    margin: 20mm 18mm 25mm 18mm;
+}
+
+body {
+    font-family: "Liberation Serif", serif;
+    font-size: 11pt;
+    line-height: 1.45;
+    text-align: justify;
+}
+
+h1 {
+    page-break-before: always;
+    font-size: 1.6em;
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin: 1.5em 0 0.75em 0;
+}
+
+p {
+    margin: 0;
+    text-indent: 1.25em;
+}
+
+h1 + p,
+h2 + p,
+div + p,
+figure + p,
+blockquote + p {
+    text-indent: 0;
+}
+

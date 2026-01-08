@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "BookSerif";
+    src: url("DejaVuSerif.ttf");
+}
+
+body {
+    font-family: "BookSerif", serif;
+}
+
