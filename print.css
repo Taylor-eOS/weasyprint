@@ -35,3 +35,34 @@ blockquote + p {
     text-indent: 0;
 }
 
+h1 {
+    bookmark-level: 1;
+    bookmark-label: contents;
+    bookmark-state: open;
+}
+
+h2 {
+    bookmark-level: 2;
+    bookmark-label: contents;
+    bookmark-state: open;
+}
+
+h3 {
+    bookmark-level: 3;
+    bookmark-label: contents;
+}
+
+h4 {
+    bookmark-level: 4;
+    bookmark-label: contents;
+}
+
+h5 {
+    bookmark-level: 5;
+    bookmark-label: contents;
+}
+
+h6 {
+    bookmark-level: 6;
+    bookmark-label: contents;
+}
