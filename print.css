@@ -41,17 +41,27 @@ h1 {
     font-size: 1.6em;
     text-align: center;
     margin: 2em 0 1em 0;
+    bookmark-level: 1;
+    bookmark-label: contents;
+    bookmark-state: open;
 }
 
 h2 {
     page-break-before: always;
     font-size: 1.3em;
     margin: 1.5em 0 0.75em 0;
+    bookmark-level: 2;
+    bookmark-label: contents;
+    bookmark-state: open;
+}
+
+h3, h4, h5, h6 {
+    bookmark-level: none;
 }
 
 p {
     margin: 0;
-    text-indent: 1.25em;
+    text-indent: 1em;
 }
 
 h1 + p,
@@ -62,42 +72,6 @@ blockquote + p {
     text-indent: 0;
 }
 
-h1 {
-    bookmark-level: 1;
-    bookmark-label: contents;
-    bookmark-state: open;
+blockquote p {
+    text-indent: 0;
 }
-
-h2 {
-    bookmark-level: 2;
-    bookmark-label: contents;
-    bookmark-state: open;
-}
-
-/*
-h3 {
-    bookmark-level: 3;
-    bookmark-label: contents;
-}
-
-h4 {
-    bookmark-level: 4;
-    bookmark-label: contents;
-}
-
-h5 {
-    bookmark-level: 5;
-    bookmark-label: contents;
-}
-
-h6 {
-    bookmark-level: 6;
-    bookmark-label: contents;
-}
-*/
-
-h3, h4, h5, h6 {
-    bookmark-level: none;
-}
-
-
